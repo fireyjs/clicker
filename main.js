@@ -6516,6 +6516,7 @@ Game.Launch=function()
 				else if (Game.cookiesEarned<50000) list.push('Your cookies bring all the boys to the yard.');
 				else if (Game.cookiesEarned<100000) list.push('Your cookies now have their own website!');
 				else if (Game.cookiesEarned<500000) list.push('Your cookies are worth a lot of money.');
+				else if (Game.cookiesEarned<900000) list.push('Firey likes your cookies!');
 				else if (Game.cookiesEarned<1000000) list.push('Your cookies sell very well in distant countries.');
 				else if (Game.cookiesEarned<5000000) list.push('People come from very far away to get a taste of your cookies.');
 				else if (Game.cookiesEarned<10000000) list.push('Kings and queens from all over the world are enjoying your cookies.');
